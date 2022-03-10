@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                 principal.addView(principal);
             }
             listaSonidos.put(b.getTag().toString(), b.getText().toString());
-            //b.setText();
+            b.setText(acortaEtiqueta(b.getText().toString()));
         }
     }
 
